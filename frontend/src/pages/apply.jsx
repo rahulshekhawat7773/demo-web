@@ -22,7 +22,7 @@ function Apply() {
 
     try {
       const res = await axios.post(
-        "http://localhost:2000/api/v1/apply",
+        "code-mxhq.vercel.app/api/v1/apply",
         form
       );
 

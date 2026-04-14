@@ -21,7 +21,7 @@ function Login() {
 
     try {
       const res = await axios.post(
-        "http://localhost:2000/api/v1/login",
+        "code-mxhq.vercel.app/api/v1/login",
         form
       );
 
